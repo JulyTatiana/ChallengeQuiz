@@ -17,13 +17,6 @@ def run_test():
     question4 = random.randint(0,5)
     question5 = random.randint(0,5)
 
-    # print(question1)
-    # print(question2)
-    # print(question3)
-    # print(question4)
-    # print(question5)
-    
-    
     questions = [
         Question(preguntas.nivel1[question1]),
         Question(preguntas.nivel2[question2]),
