@@ -4,7 +4,29 @@ from models.player import Player
 from models.question import Question
 import csv
 
+class Question:
+    def __init__(self, prompt):
+        self.prompt = prompt['Q']
+        self.options = f" (a) {prompt['A']}\n (b) {prompt['B']}\n (c) {prompt['C']}\n (d) {prompt['D']}\n"
+        self.answer = prompt['R']
 
+
+def run_test():
+    preguntas = Preguntas()
+    question1 = random.randint(0,5)
+    question2 = random.randint(0,5)
+    question3 = random.randint(0,5)
+    question4 = random.randint(0,5)
+    question5 = random.randint(0,5)
+
+    questions = [
+        Question(preguntas.nivel1[question1]),
+        Question(preguntas.nivel2[question2]),
+        Question(preguntas.nivel3[question3]),
+        Question(preguntas.nivel4[question4]),
+        Question(preguntas.nivel5[question5]),
+    ]
+    
 def greeting():
     print("""
           *********************************************************
