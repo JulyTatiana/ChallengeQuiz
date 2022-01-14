@@ -1,9 +1,15 @@
 # SofkaChallengeQuiz
-CHALLENGE - CONCURSO DE PREGUNTAS Y RESPUESTAS - Creado por: July Tatiana Ramírez Herrera
+CHALLENGE - CONCURSO DE PREGUNTAS Y RESPUESTAS
 
-Archivo ejecutable:  app.py
-Sólo se requieren 2 archivos en una misma carpeta para ejecutar el quiz: questions.py y app.py .
+Creado por: July Tatiana Ramírez Herrera
 
+Ejecución del aplicativo:
+
+```sh
+python app.main.py
+```
+
+Interfaz de bienvenida:
 
           *********************************************************
           ----BIENVENIDOS AL CONCURSO DE PREGUNTAS Y RESPUESTAS----
@@ -24,4 +30,3 @@ Sólo se requieren 2 archivos en una misma carpeta para ejecutar el quiz: questi
           
           Si desea renunciar en cualquier momento escriba "salir".
           *********************************************************
-         
