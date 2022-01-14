@@ -54,7 +54,7 @@ def get_score():
 def create_score(name, score):
     recorded_score = get_score()
     with open('data/score.txt', mode='w') as score_file:
-        score_writer = csv.writer(score_file, delimiter=',', newline="")
+        score_writer = csv.writer(score_file, delimiter=',')
         score_writer.writerow([name, score])
         for score in recorded_score:
             score_writer.writerow([score.name, score.finalscore])
